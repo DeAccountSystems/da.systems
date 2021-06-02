@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>why_tokens</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#52DDDD" offset="0%"></stop>
+            <stop stop-color="#29D2D3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#79A2FF" offset="0%"></stop>
+            <stop stop-color="#467FFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.000395797187%" y1="49.9998628%" x2="100.0004%" y2="49.9998628%" id="linearGradient-3">
+            <stop stop-color="#FFD300" offset="0%"></stop>
+            <stop stop-color="#FFA800" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="why_tokens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-40" transform="translate(30.500000, 31.500000) rotate(-180.000000) translate(-30.500000, -31.500000) translate(5.000000, 6.000000)" fill-rule="nonzero">
+            <circle id="Oval" fill="url(#linearGradient-1)" opacity="0.5" cx="17" cy="17" r="17"></circle>
+            <circle id="Oval-Copy-14" fill="url(#linearGradient-2)" opacity="0.900000036" cx="17" cy="34" r="17"></circle>
+            <circle id="shadow" fill="#FFAA00" cx="33" cy="25" r="17"></circle>
+            <circle id="Oval-Copy-16" fill="url(#linearGradient-3)" cx="34" cy="26" r="17"></circle>
+        </g>
+    </g>
+</svg>

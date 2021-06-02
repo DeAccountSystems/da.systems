@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>why_platform</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.000395797187%" y1="49.9998628%" x2="100.0004%" y2="49.9998628%" id="linearGradient-1">
+            <stop stop-color="#FFD300" offset="0%"></stop>
+            <stop stop-color="#FFA800" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#79A2FF" offset="0%"></stop>
+            <stop stop-color="#467FFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#52DDDD" offset="0%"></stop>
+            <stop stop-color="#29D2D3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="why_platform" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10" transform="translate(8.000000, 13.000000)" fill-rule="nonzero">
+            <path d="M20.7261,0.2274 L1.2001,7.4404 C-0.3999,8.0314 -0.3999,10.2934 1.2001,10.8854 L20.7261,18.0974 C21.5481,18.4014 22.4521,18.4014 23.2731,18.0974 L42.8001,10.8854 C44.4001,10.2934 44.4001,8.0314 42.8001,7.4404 L23.2731,0.2274 C22.4521,-0.0766 21.5481,-0.0766 20.7261,0.2274" id="Fill-1" fill="url(#linearGradient-1)"></path>
+            <path d="M20.7261,20.0565 L8.4321,15.5145 L1.2001,18.1855 C-0.3999,18.7765 -0.3999,21.0395 1.2001,21.6305 L20.7261,28.8425 C21.5481,29.1465 22.4521,29.1465 23.2731,28.8425 L42.8001,21.6305 C44.4001,21.0395 44.4001,18.7765 42.8001,18.1855 L35.5681,15.5145 L23.2741,20.0565 C22.4521,20.3605 21.5481,20.3605 20.7261,20.0565" id="Fill-4" fill="url(#linearGradient-2)" opacity="0.900000036"></path>
+            <path d="M20.7261,30.8006 L8.4331,26.2596 L1.2001,28.9306 C-0.3999,29.5226 -0.3999,31.7846 1.2001,32.3756 L20.7261,39.5886 C21.5481,39.8926 22.4521,39.8926 23.2731,39.5886 L42.8001,32.3756 C44.4001,31.7846 44.4001,29.5226 42.8001,28.9306 L35.5671,26.2596 L23.2731,30.8006 C22.4521,31.1046 21.5481,31.1046 20.7261,30.8006" id="Fill-7" fill="url(#linearGradient-3)" opacity="0.5"></path>
+        </g>
+    </g>
+</svg>
