@@ -3,7 +3,14 @@ const LANGUAGES = {
   'English': 'en'
 }
 
-$('.language-switch').click((event) => {
-  document.cookie = 'language=' + LANGUAGES[event.target.innerText] + '; expires=Fri, 31 Dec 9000 23:59:59 GMT'
+for (var key in LANGUAGES) {
+  if (document.cookie.indexOf(LANGUAGES[key]) > -1) {
+    $('#language').val(LANGUAGES[key])
+    break
+  }
+}
+
+$('.language-switch').change((event) => {
+  document.cookie = 'language=' + event.target.value + '; expires=Fri, 31 Dec 9000 23:59:59 GMT'
   location.reload()
 })
