@@ -1,4 +1,4 @@
-const endTime = dayjs('2021-07-21T12:00:00Z')
+const endTime = dayjs('2021-07-22T12:00:00Z')
 // const endTime = dayjs().add(10, 'second')
 $('.final-time').html(`${endTime.month() + 1} 月 ${endTime.date()} 日<br>${endTime.hour()}:00`)
 
@@ -21,6 +21,8 @@ function getTimeRemaining (timestamp) {
     days: replenishZero(days),
   }
 }
+
+$('.announcement-link').text(`‼️各位小伙伴：DAS 团队今天正在紧张地进行正式发布前的环境部署及现网测试。在主网验证期间，发现有抢跑行为。为保障所有用户的权益，保证 DAS 的公平启动，DAS 团队需要一些时间来完善防抢跑机制。因此需要延期至 ${ endTime.format('YYYY-MM-DD HH:mm') } 上线。❤️在此 DAS 团队感谢大家的关注及热心反馈。`)
 
 const currentTime = dayjs()
 const diffseconds = endTime.diff(currentTime, 'second')

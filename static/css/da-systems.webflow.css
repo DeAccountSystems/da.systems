@@ -939,13 +939,17 @@
   position: sticky;
   top: 0px;
   z-index: 10000;
-  display: none;
   overflow: hidden;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 50px;
   background-color: #ff789c;
   color: #000;
   text-align: center;
+}
+
+@media (max-width: 992px) {
+  .announcement {
+    padding: 10px 16px;
+  }
 }
 
 .link-brand {
@@ -979,7 +983,6 @@
 
 .announcement-link:hover {
   color: rgba(255, 255, 255, 0.8);
-  text-decoration: underline;
 }
 
 .body {
