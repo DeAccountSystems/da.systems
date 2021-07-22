@@ -22,7 +22,7 @@ function getTimeRemaining (timestamp) {
   }
 }
 
-$('.announcement-link').text(`‼️Hi, everyone. DAS Team is working hard on deployment environment and testing today. During mainnet validation, a front-running behavior is found. In order to ensure fairness, we need some time to improve anti-squatting mechanism. Therefore, DAS launch needs to be postponed to ${ endTime.format('YYYY-MM-DD HH:mm') }. ❤️Thanks for your attention and feedback, see you!`)
+// $('.announcement-link').text(`‼️Hi, everyone. DAS Team is working hard on deployment environment and testing today. During mainnet validation, a front-running behavior is found. In order to ensure fairness, we need some time to improve anti-squatting mechanism. Therefore, DAS launch needs to be postponed to ${ endTime.format('YYYY-MM-DD HH:mm') }. ❤️Thanks for your attention and feedback, see you!`)
 
 const currentTime = dayjs()
 const diffseconds = endTime.diff(currentTime, 'second')
