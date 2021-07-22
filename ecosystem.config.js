@@ -1,13 +1,13 @@
 const packageJson = require('./package.json')
 
 function generateApp(env, port) {
-  const isProd = env === 'production2'
+  const isProd = env === 'production'
   const appName = isProd ? packageJson.name : `${packageJson.name}_${env}`
 
   return {
     name: appName,
     script: 'index.js',
-    instances: isProd ? 1 : 1,
+    instances: 1,
     exec_mode: 'cluster',
     watch: false,
     error_file: `logs/${appName}.stderr.log'`,
