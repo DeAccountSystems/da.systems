@@ -1,3 +1,2 @@
-## das 官网
+# da.systems official website
 
-- 官网由耀佳设计并提供静态文件；
