@@ -1,19 +1,16 @@
-function getQueryParam (name) {
-  let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i")
-  let r = window.location.search.substr(1).match(reg)
-  if (r != null) {
-    return decodeURIComponent(r[2])
+function getQueryParam () {
+  const queryParams = {}
+  let paramsString = window.location.search.replace('?', '')
+  let searchParams = new URLSearchParams(paramsString)
+  for (let param of searchParams) {
+    queryParams[param[0]] = param[1]
   }
-  return null
+  return queryParams
 }
 
-const queryParams = {
-  inviter: getQueryParam('inviter'),
-  channel: getQueryParam('channel'),
-}
+let queryString = $.param(getQueryParam())
 
-if (queryParams.inviter || queryParams.channel) {
-  let queryString = $.param(queryParams)
+if (queryString) {
   const gogodasUrl = `https://app.gogodas.com/explorer?${queryString}`
   const dasUrl = `https://app.da.systems/explorer?${queryString}`
   $('#gogodasUrl').attr('href', gogodasUrl)
