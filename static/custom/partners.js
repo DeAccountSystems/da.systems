@@ -40,7 +40,7 @@ list.forEach((item) => {
     <a href="${ item.website }" target="_blank" class="logo-block w-inline-block">
       <div class="app-info">
         <div class="logo-image"><img src="images/${ item.logo }" loading="lazy" alt="" class="app-logo"></div>
-        <h4 class="app-englishName">${ item.englishName }</h4>
+        <h4 class="app-name">${ item.englishName }</h4>
       </div>
     </a>`)
 })
