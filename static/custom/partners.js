@@ -2,37 +2,37 @@ const list = [{
   englishName: 'imToken',
   chineseName: 'imToken',
   logo: 'wallet-imtoken.png',
-  website: 'https://token.im/'
+  website: 'https://token.im?utm_source=da.systems'
 }, {
   englishName: 'TokenPocket',
   chineseName: 'TokenPocket',
   logo: 'wallet-tokenpocket.png',
-  website: 'https://www.tokenpocket.pro/'
+  website: 'https://www.tokenpocket.pro?utm_source=da.systems'
 }, {
   englishName: 'MathWallet',
   chineseName: 'MathWallet',
   logo: 'wallet-mathwallet.png',
-  website: 'https://mathwallet.org/'
+  website: 'https://mathwallet.org?utm_source=da.systems'
 }, {
   englishName: 'Huobi Wallet',
   chineseName: 'Huobi Wallet',
   logo: 'wallet-huobiwallet.png',
-  website: 'https://www.huobiwallet.com/'
+  website: 'https://www.huobiwallet.com?utm_source=da.systems'
 }, {
   englishName: 'SafePal',
   chineseName: 'SafePal',
   logo: 'wallet-safepal.png',
-  website: 'https://safepal.io/download'
+  website: 'https://safepal.io?utm_source=da.systems'
 }, {
   englishName: 'HyperPay',
   chineseName: 'HyperPay',
   logo: 'wallet-hyperpay.png',
-  website: 'https://www.hyperpay.tech/'
+  website: 'https://www.hyperpay.tech?utm_source=da.systems'
 }, {
   englishName: 'BitKeep',
   chineseName: 'BitKeep',
   logo: 'wallet-bitkeep.png',
-  website: 'https://bitkeep.org/'
+  website: 'https://bitkeep.org?utm_source=da.systems'
 }]
 
 list.forEach((item) => {
