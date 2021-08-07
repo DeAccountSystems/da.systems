@@ -17,7 +17,7 @@ const list = [{
   englishName: 'Huobi Wallet',
   chineseName: 'Huobi Wallet',
   logo: 'wallet-huobiwallet.png',
-  website: 'https://www.huobiwallet.io?utm_source=da.systems'
+  website: 'https://www.huobiwallet.io/en/h5?utm_source=da.systems'
 }, {
   englishName: 'SafePal',
   chineseName: 'SafePal',
