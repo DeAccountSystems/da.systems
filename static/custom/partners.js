@@ -12,12 +12,12 @@ const list = [{
   englishName: 'MathWallet',
   chineseName: 'MathWallet',
   logo: 'wallet-mathwallet.png',
-  website: 'https://www.huobiwallet.io?utm_source=da.systems'
+  website: 'https://mathwallet.org?utm_source=da.systems'
 }, {
   englishName: 'Huobi Wallet',
   chineseName: 'Huobi Wallet',
   logo: 'wallet-huobiwallet.png',
-  website: 'https://www.huobiwallet.com?utm_source=da.systems'
+  website: 'https://www.huobiwallet.io?utm_source=da.systems'
 }, {
   englishName: 'SafePal',
   chineseName: 'SafePal',
