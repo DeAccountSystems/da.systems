@@ -8,12 +8,10 @@ const app = new Koa()
 
 const LANGUAGES = new Map(
   [
-    ['zh_Hans_CN', { name: '简体中文', regexp: /zh|cn|hans/i }],
+    ['zh-CN', { name: '简体中文', regexp: /zh|cn|hans/i }],
     ['en', { name: 'English', regexp: /en/i }]
   ]
 )
-
-const EXPIRES = new Date('Fri, 31 Dec 9000 23:59:59 GMT')
 
 /**
  * 根据用户提供的language，匹配一下我们支持的language
@@ -28,18 +26,6 @@ function matchLanguage (lang) {
     }
   })
   return language
-}
-
-/**
- * 设置语言 cookie
- * @param ctx koa上下文
- * @param lang 语言名
- */
-function setLanguageCookie(ctx, lang) {
-  ctx.cookies.set('language', lang, {
-    expires: EXPIRES,
-    httpOnly: false
-  })
 }
 
 app.use(staticFiles(path.resolve(__dirname, './static')))
@@ -61,16 +47,13 @@ router.get('/*', async (ctx, next) => {
     }
   }
 
-  if (lang && lang === 'zh_Hans_CN') {
-    setLanguageCookie(ctx, lang)
+  if (lang && lang === 'zh-CN') {
     ctx.response.body = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf-8')
   }
   else if (lang) {
-    setLanguageCookie(ctx, lang)
     ctx.response.body = fs.readFileSync(path.resolve(__dirname, `./index-${ lang }.html`), 'utf-8')
   }
   else {
-    setLanguageCookie(ctx, 'English')
     ctx.response.body = fs.readFileSync(path.resolve(__dirname, './index-en.html'), 'utf-8')
   }
 })
