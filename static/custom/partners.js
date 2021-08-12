@@ -36,7 +36,7 @@ const list = [{
 }, {
   englishName: 'ONTO Wallet',
   chineseName: 'ONTO Wallet',
-  logo: 'wallet-onto.png',
+  logo: 'wallet-test.png',
   website: 'https://www.onto.app?utm_source=da.systems'
 }]
 
