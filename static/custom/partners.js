@@ -34,8 +34,8 @@ const list = [{
   logo: 'wallet-bitkeep.png',
   website: 'https://bitkeep.org?utm_source=da.systems'
 }, {
-  englishName: 'ONTO',
-  chineseName: 'ONTO',
+  englishName: 'ONTO Wallet',
+  chineseName: 'ONTO Wallet',
   logo: 'wallet-onto.png',
   website: 'https://www.onto.app?utm_source=da.systems'
 }]
