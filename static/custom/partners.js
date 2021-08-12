@@ -33,6 +33,11 @@ const list = [{
   chineseName: 'BitKeep',
   logo: 'wallet-bitkeep.png',
   website: 'https://bitkeep.org?utm_source=da.systems'
+}, {
+  englishName: 'ONTO',
+  chineseName: 'ONTO',
+  logo: 'wallet-onto.png',
+  website: 'https://www.onto.app?utm_source=da.systems'
 }]
 
 list.forEach((item) => {
