@@ -3,8 +3,6 @@ const LANGUAGES = {
   'en': { name: 'English', regexp: /en/i }
 }
 
-debugger
-
 let setLanguage = ''
 for (var key in LANGUAGES) {
   if (document.cookie.match(LANGUAGES[key].regexp)) {
