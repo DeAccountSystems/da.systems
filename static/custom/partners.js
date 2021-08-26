@@ -9,8 +9,8 @@ const list = [{
   logo: 'wallet-tokenpocket.png',
   website: 'https://www.tokenpocket.pro?utm_source=da.systems'
 }, {
-  englishName: 'MathWallet',
-  chineseName: 'MathWallet',
+  englishName: 'Math Wallet',
+  chineseName: 'Math Wallet',
   logo: 'wallet-mathwallet.png',
   website: 'https://mathwallet.org?utm_source=da.systems'
 }, {
