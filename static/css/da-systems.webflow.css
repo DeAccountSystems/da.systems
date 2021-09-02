@@ -1671,10 +1671,13 @@
 }
 
 .text-block-9 {
-  font-size: 1rem;
+  display: block;
+  font-size: 24px;
   font-weight: bold;
-  line-height: 1.25rem;
+  line-height: 26px;
   text-align: center;
+  color: #000000;
+  text-decoration: unset;
 }
 
 .app-info {
@@ -1871,7 +1874,7 @@
   }
 
   .button1-active {
-    display: none;
+    display: block;
     margin-right: 55px;
     margin-left: 55px;
     padding-top: 18px;
@@ -2134,7 +2137,7 @@
   }
 
   .button1-active {
-    display: none;
+    display: block;
     margin-right: 50px;
     margin-left: 50px;
     -webkit-box-pack: center;
@@ -2321,7 +2324,7 @@
   }
 
   .button1-active {
-    display: none;
+    display: block;
     margin-right: 20px;
     margin-left: 20px;
     -webkit-box-pack: center;
