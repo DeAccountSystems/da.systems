@@ -1,6 +1,6 @@
-const endTime = dayjs('2021-07-22T12:00:00Z')
+const endTime = dayjs('2021-09-04T00:00:00Z')
 // const endTime = dayjs().add(10, 'second')
-$('.final-time').html(`July ${endTime.date()}<br>${endTime.hour()}:00`)
+$('.final-time').html(`September ${endTime.date()}<br>${endTime.hour()}:00`)
 
 function replenishZero (num) {
   if (Number(num) < 10) {

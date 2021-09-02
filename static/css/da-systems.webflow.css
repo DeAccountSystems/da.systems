@@ -1141,7 +1141,7 @@
 .focus-animation {
   position: absolute;
   left: 0%;
-  top: 37%;
+  top: 36%;
   right: 0%;
   bottom: auto;
   display: inline-block;
@@ -1187,7 +1187,10 @@
 
 .event-time {
   position: relative;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow: hidden;
   height: 100vh;
   margin-top: -86px;
@@ -1246,7 +1249,7 @@
 .final-time {
   position: absolute;
   left: 0%;
-  top: 45%;
+  top: 43%;
   right: 0%;
   bottom: auto;
   margin-top: 0px;
@@ -1291,7 +1294,7 @@
 .text-block-7 {
   position: absolute;
   left: 0%;
-  top: 19%;
+  top: 17%;
   right: 0%;
   bottom: auto;
   color: #fff;
@@ -1668,8 +1671,8 @@
 }
 
 .text-block-9 {
-  width: 424px;
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: bold;
   line-height: 1.25rem;
   text-align: center;
 }
@@ -2541,7 +2544,7 @@
 
   .focus-animation {
     left: 0%;
-    top: 26.5%;
+    top: 30.5%;
     right: 0%;
     bottom: auto;
     margin-top: 0px;
@@ -2558,13 +2561,13 @@
   }
 
   .countdown {
-    bottom: 77px;
+    bottom: 38px;
     grid-column-gap: 3px;
   }
 
   .final-time {
     left: 0%;
-    top: 40%;
+    top: 46%;
     right: 0%;
     bottom: auto;
     font-size: 2.8rem;
@@ -2598,7 +2601,7 @@
     left: 0%;
     top: auto;
     right: 0%;
-    bottom: 26%;
+    bottom: 16%;
   }
 
   .time-hour {
@@ -2695,6 +2698,23 @@
   }
 
   #w-node-_4aab75b9-67fa-01d2-4d7a-5789edaf2073-85a5cfbb {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-_15e5668b-ab41-c06f-5489-e5c58b66ac09-85a5cfbb {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  #w-node-_15e5668b-ab41-c06f-5489-e5c58b66ac10-85a5cfbb {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  #w-node-_15e5668b-ab41-c06f-5489-e5c58b66ac17-85a5cfbb {
     -ms-grid-column-align: center;
     justify-self: center;
   }
