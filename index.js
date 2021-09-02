@@ -28,7 +28,7 @@ function matchLanguage (lang) {
   return language
 }
 
-app.use(staticFiles(path.resolve(__dirname, './static'), { maxage: 24 * 60 * 60 * 1000 }))
+app.use(staticFiles(path.resolve(__dirname, './static')))
 
 router.get('/*', async (ctx, next) => {
   const language = ctx.cookies.get('language')
