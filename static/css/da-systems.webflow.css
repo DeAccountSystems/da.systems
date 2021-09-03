@@ -938,7 +938,7 @@
   position: sticky;
   top: 0px;
   z-index: 10000;
-  display: none;
+  display: block;
   overflow: hidden;
   padding: 10px 100px;
   background-color: #ff789c;
@@ -1141,7 +1141,7 @@
 .focus-animation {
   position: absolute;
   left: 0%;
-  top: 36%;
+  top: 37%;
   right: 0%;
   bottom: auto;
   display: inline-block;
@@ -1187,10 +1187,7 @@
 
 .event-time {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: hidden;
   height: 100vh;
   margin-top: -86px;
@@ -1249,7 +1246,7 @@
 .final-time {
   position: absolute;
   left: 0%;
-  top: 43%;
+  top: 45%;
   right: 0%;
   bottom: auto;
   margin-top: 0px;
@@ -1294,7 +1291,7 @@
 .text-block-7 {
   position: absolute;
   left: 0%;
-  top: 17%;
+  top: 19%;
   right: 0%;
   bottom: auto;
   color: #fff;
@@ -1671,13 +1668,10 @@
 }
 
 .text-block-9 {
-  display: block;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 26px;
+  width: 424px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   text-align: center;
-  color: #000000;
-  text-decoration: unset;
 }
 
 .app-info {
@@ -1874,7 +1868,7 @@
   }
 
   .button1-active {
-    display: block;
+    display: none;
     margin-right: 55px;
     margin-left: 55px;
     padding-top: 18px;
@@ -2137,7 +2131,7 @@
   }
 
   .button1-active {
-    display: block;
+    display: none;
     margin-right: 50px;
     margin-left: 50px;
     -webkit-box-pack: center;
@@ -2324,7 +2318,7 @@
   }
 
   .button1-active {
-    display: block;
+    display: none;
     margin-right: 20px;
     margin-left: 20px;
     -webkit-box-pack: center;
@@ -2547,7 +2541,7 @@
 
   .focus-animation {
     left: 0%;
-    top: 30.5%;
+    top: 26.5%;
     right: 0%;
     bottom: auto;
     margin-top: 0px;
@@ -2564,13 +2558,13 @@
   }
 
   .countdown {
-    bottom: 38px;
+    bottom: 77px;
     grid-column-gap: 3px;
   }
 
   .final-time {
     left: 0%;
-    top: 46%;
+    top: 40%;
     right: 0%;
     bottom: auto;
     font-size: 2.8rem;
@@ -2604,7 +2598,7 @@
     left: 0%;
     top: auto;
     right: 0%;
-    bottom: 16%;
+    bottom: 26%;
   }
 
   .time-hour {
@@ -2701,23 +2695,6 @@
   }
 
   #w-node-_4aab75b9-67fa-01d2-4d7a-5789edaf2073-85a5cfbb {
-    -ms-grid-column-align: center;
-    justify-self: center;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  #w-node-_15e5668b-ab41-c06f-5489-e5c58b66ac09-85a5cfbb {
-    -ms-grid-column-align: center;
-    justify-self: center;
-  }
-
-  #w-node-_15e5668b-ab41-c06f-5489-e5c58b66ac10-85a5cfbb {
-    -ms-grid-column-align: center;
-    justify-self: center;
-  }
-
-  #w-node-_15e5668b-ab41-c06f-5489-e5c58b66ac17-85a5cfbb {
     -ms-grid-column-align: center;
     justify-self: center;
   }

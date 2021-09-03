@@ -1,4 +1,4 @@
-const endTime = dayjs('2021-09-04T00:00:00Z')
+const endTime = dayjs('2021-07-22T12:00:00Z')
 // const endTime = dayjs().add(10, 'second')
 $('.final-time').html(`${endTime.month() + 1} 月 ${endTime.date()} 日<br>${endTime.hour()}:00`)
 
