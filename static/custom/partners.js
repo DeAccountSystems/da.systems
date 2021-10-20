@@ -19,6 +19,11 @@ const list = [{
   logo: 'wallet-huobiwallet.png',
   website: 'https://www.huobiwallet.io/en/h5?utm_source=da.systems'
 }, {
+  englishName: 'AlphaWallet',
+  chineseName: 'AlphaWallet',
+  logo: 'wallet-alphawallet.png',
+  website: 'https://alphawallet.com?utm_source=da.systems'
+}, {
   englishName: 'SafePal',
   chineseName: 'SafePal',
   logo: 'wallet-safepal.png',
@@ -83,6 +88,41 @@ const list = [{
   chineseName: 'ViaWallet',
   logo: 'partners-viawallet.png',
   website: 'https://viawallet.com?utm_source=da.systems'
+}, {
+  englishName: 'Bitpie',
+  chineseName: '比特派',
+  logo: 'partners-bitpie.png',
+  website: 'https://bitpie.com?utm_source=da.systems'
+}, {
+  englishName: 'Dfox',
+  chineseName: 'Dfox',
+  logo: 'partners-dfox.png',
+  website: 'https://dfox.cc?utm_source=da.systems'
+}, {
+  englishName: 'Mynft',
+  chineseName: 'Mynft',
+  logo: 'partners-mynft.png',
+  website: 'https://mynft.io?utm_source=da.systems'
+}, {
+  englishName: 'GoPocket',
+  chineseName: 'GoPocket',
+  logo: 'partners-gopocket.png',
+  website: 'https://gopocket.finance?utm_source=da.systems'
+}, {
+  englishName: 'AToken',
+  chineseName: 'AToken',
+  logo: 'partners-atoken.png',
+  website: 'https://www.atoken.com?utm_source=da.systems'
+}, {
+  englishName: 'Yin',
+  chineseName: 'Yin',
+  logo: 'partners-yin.png',
+  website: 'https://yin.finance?utm_source=da.systems'
+}, {
+  englishName: 'CyberPunk Lab',
+  chineseName: 'CyberPunk Lab',
+  logo: 'partners-cyberpunk-lab.png',
+  website: ''
 }]
 
 list.forEach((item) => {
