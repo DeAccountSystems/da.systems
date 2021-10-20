@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed Aug 04 2021 11:47:20 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Oct 15 2021 02:56:38 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="60eea201d4eeb4ec85a5cfbb" data-wf-site="60765d47493eaf11178f2886">
 <head>
   <meta charset="utf-8">
@@ -14,9 +14,9 @@
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
-  <link href="css/normalize.css?v=3" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css?v=3" rel="stylesheet" type="text/css">
-  <link href="css/da-systems.webflow.css?v=3" rel="stylesheet" type="text/css">
+  <link href="css/normalize.css?v=4" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css?v=4" rel="stylesheet" type="text/css">
+  <link href="css/da-systems.webflow.css?v=4" rel="stylesheet" type="text/css">
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
@@ -33,7 +33,7 @@
       </div><img src="images/wechat.svg" loading="lazy" alt="QR Code" class="image-7">
     </div>
   </div>
-  <div style="display:none;opacity:0" class="modal">
+  <div style="display:none;opacity:0" class="modal-register">
     <div class="modal-body">
       <div class="modal-title">
         <h1 class="heading-54">Select a registrar</h1><img src="images/close.svg" loading="lazy" data-w-id="b5677e8e-03db-a4e4-fa2d-0ecdcbaacf8e" alt="Close" class="close-button">
@@ -67,6 +67,20 @@
       </div>
     </div>
   </div>
+  <div style="display:none;opacity:0" class="modal-marketplace">
+    <div class="modal-body">
+      <div class="modal-title">
+        <h1 class="heading-54">Select MarketPlace</h1><img src="images/close.svg" loading="lazy" data-w-id="4c716a37-3375-4470-16ac-0a445a26070a" alt="Close" class="close-button-marketplace">
+      </div>
+      <a id="bestdasUrl" href="https://bestdas.com" class="link-block0 w-inline-block">
+        <div class="div-block-10">
+          <div><img src="images/bestdas-logo.svg" loading="lazy" width="100" alt="" class="image-10">
+            <div class="text-block-4">The best decentralized marketplace for DAS</div>
+          </div>
+        </div><img src="images/ic-arrow.svg" loading="lazy" alt="" class="image-6">
+      </a>
+    </div>
+  </div>
   <div class="background-blur-css w-embed">
     <style>
 .navbar {
@@ -75,9 +89,9 @@
 }
 </style>
   </div>
-  <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
 <!--    <div class="announcement">-->
-<!--      <a href="https://dasystems.medium.com/its-time-to-open-more-das-accounts-3b6c66ac3b02" class="announcement-link">🚀 35% of the accounts with 4~9 characters are open for registration. The remaining 65% will be opened gradually in 24 weeks from September 26th. Rules →</a>-->
+<!--      <a href="https://mp.weixin.qq.com/s/4R5DMOIZtn5ZysDKipxnTw" class="announcement-link"> 🎁 公开测试中，了解公测规则及福利 →</a>-->
 <!--    </div>-->
     <div class="nav-menu w-container">
       <a href="#home" class="brand w-nav-brand"><img src="images/nav-logo.svg" alt="Logo" class="image-2"></a>
@@ -87,9 +101,9 @@
         <a href="https://docs.da.systems/docs/v/english-1/" class="nav-link w-nav-link">Docs</a>
         <a href="https://talk.da.systems/" class="nav-link w-nav-link">Forum</a>
         <a href="https://github.com/DeAccountSystems/Documents/blob/main/Reserved_DAS/Apply_for_Reserved.md" class="nav-link w-nav-link">Apply for Reserved</a>
+        <a href="#" data-w-id="4df5bc6e-da78-7070-dc5d-2c2cacea8398" class="nav-link w-nav-link">MarketPlace</a>
       </nav>
       <nav role="navigation" class="nav-button w-nav-menu">
-        <a href="#" class="button1-disabled w-button">Register | Manage</a>
         <a href="#" data-w-id="979a821f-d223-11c2-704c-63d07c68efb6" class="button1-active w-button">Register | Manage</a>
       </nav>
       <div class="menu-button w-nav-button">
@@ -101,14 +115,9 @@
     <div class="container w-container">
       <div class="landingpage">
         <div class="hero-content">
-          <div class="new-udata">
-            <div class="text-block-3">NEW</div>
-            <a href="https://da.systems/" class="link-2">使用新域名 da.systems 访问 →</a>
-          </div>
           <h1 class="fontsize-display3"><span><strong class="bold-text-2">D</strong></span><strong>ecentralized<br>‍</strong><span><strong class="bold-text-3">A</strong></span><strong>ccount<br>‍</strong><span><strong class="bold-text-4">S</strong></span><strong>ystems</strong></h1>
           <h1 class="fontsize-display2"><strong>A future-proof, decentralized account system</strong></h1>
           <p class="paragraph-left">Unlike centralized account systems, such as cell phone numbers/email/social accounts, DAS offers a decentralized and open sourced approach to account systems. DAS can be used as a digital assets collection account, as an account for accessing general Internet services.</p>
-          <a href="#" class="button2-disabled w-button">Register / Manage DAS Account</a>
           <a href="#" data-w-id="b476698f-efe2-67f7-cd1c-8459c5b22a39" class="button2-active w-button">Register / Manage DAS Account</a>
         </div>
         <div><img src="images/logo2.svg" loading="lazy" alt="" class="image-4"></div>
@@ -156,11 +165,24 @@
         <div class="scenarios-content-left">
           <div class="scenarios-sub-title">Usage Scenario 1</div>
           <h1 class="scenarios-title"><strong class="scenarios-title-text">DAS as a unified digital assets receiving account</strong></h1>
-          <p class="scenarios-paragraph">You can add multiple addresses from different chains to your DAS resolution record, so that when someone transfers money to you, you can simply enter your DAS account to complete the transfer. You can even add labels to the addresses to easily distinguish between different receiving accounts.<br>‍<br>
-            <a href="https://dapp-demo.da.systems/" class="link">Demo →</a>
-          </p>
+          <p class="scenarios-paragraph">You can add multiple addresses from different chains to your DAS resolution record, so that when someone transfers money to you, you can simply enter your DAS account to complete the transfer. You can even add labels to the addresses to easily distinguish between different receiving accounts.</p>
+          <div>
+            <div class="text-block-11">Supported wallets<br></div>
+            <div class="div-block-18"><img src="images/ic-supported.svg" loading="lazy" alt="">
+              <div class="text-block-10">Huobi Wallet</div>
+            </div>
+            <div class="div-block-18"><img src="images/ic-supported.svg" loading="lazy" alt="">
+              <div class="text-block-10">TokenPocket<br></div>
+            </div>
+            <div class="div-block-18"><img src="images/ic-supported.svg" loading="lazy" alt="">
+              <div class="text-block-10">imToken</div>
+            </div>
+            <div class="div-block-18"><img src="images/ic-supported.svg" loading="lazy" alt="">
+              <div class="text-block-10">AlphaWallet</div>
+            </div>
+          </div>
         </div>
-        <div><img src="images/scenarios-01.png" loading="lazy" width="528" sizes="(max-width: 479px) 92vw, (max-width: 767px) 79vw, (max-width: 991px) 528px, 526.875px" srcset="images/scenarios-01-p-500.png 500w, images/scenarios-01.png 1056w" alt=""></div>
+        <div><img src="images/scenarios-01.gif" loading="lazy" width="528" alt=""></div>
       </div>
     </div>
   </div>
@@ -171,10 +193,10 @@
           <div class="scenarios-sub-title">Usage Scenario 2</div>
           <h1 class="scenarios-title"><strong class="scenarios-title-text">DAS as a personal information page</strong></h1>
           <p class="scenarios-paragraph">You can add your social accounts, email, profile, preferences, and any other data you want to make public to your DAS account. This way, you will have a thoroughly censorship-resistant personal information page.<br>‍<br>
-            <a href="https://bit.cc/dastodamoon.bit" class="link">Demo →</a>
+            <a href="https://bit.host/dastodamoon.bit" class="link">Try →</a>
           </p>
         </div>
-        <div><img src="images/scenarios-02.png" loading="lazy" width="528" sizes="(max-width: 479px) 92vw, (max-width: 767px) 79vw, (max-width: 991px) 528px, 526.875px" srcset="images/scenarios-02-p-500.png 500w, images/scenarios-02.png 1056w" alt=""></div>
+        <div class="div-block-19"><img src="images/scenarios-02-light.png" loading="lazy" width="528" data-w-id="4c1114e9-eecc-3d12-ec6c-88ba191b993e" alt="" class="image-9"><img src="images/scenarios-02-dark.png" loading="lazy" width="528" alt=""></div>
       </div>
     </div>
   </div>
@@ -188,7 +210,7 @@
           </h1>
           <p class="scenarios-paragraph">The portal of a contract on the blockchain is its Hash, and the portal of a web page hosted on a decentralized store is also a Hash. By associating these hashes as a resolution record to a DAS account, users can access these services directly using their DAS account.</p>
         </div>
-        <div class="div-block-9"><img src="images/scenarios-03-en.png" loading="lazy" width="528" sizes="(max-width: 479px) 90vw, (max-width: 767px) 78vw, (max-width: 991px) 528px, 522.390625px" srcset="images/scenarios-03-p-500.png 500w, images/scenarios-03-en.png 1404w" alt=""></div>
+        <div class="div-block-9"><img src="images/scenarios-03.png" loading="lazy" width="528" sizes="(max-width: 479px) 90vw, (max-width: 767px) 78vw, (max-width: 991px) 528px, 522.390625px" srcset="images/scenarios-03-p-500.png 500w, images/scenarios-03.png 1404w" alt=""></div>
       </div>
     </div>
   </div>
@@ -272,7 +294,6 @@
           <p class="paragraph-center">All DAS accounts end in .bit, and you can register in multiple languages around the world (coming soon), even Emoji. Each DAS is unique, and DAS accounts with the same name cannot be created over and over again.</p>
           <div class="text-block">*Only accounts with more than 2 digits are currently available for registration<br></div>
         </div>
-        <a href="#" class="button2-disabled w-button">Register / Manage DAS Account</a>
         <a href="#" data-w-id="a16e7eb4-0815-ff1d-dbf6-c037e8d8b07a" class="button2-active w-button">Register / Manage DAS Account</a>
       </div>
     </div>
@@ -311,13 +332,13 @@
   </div>
   <script src="custom/jquery.min.js" type="text/javascript"></script>
   <script src="custom/dayjs.min.js" type="text/javascript"></script>
-  <script src="js/webflow.js?v=3" type="text/javascript"></script>
+  <script src="js/webflow.js?v=4" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script type="text/javascript" src="custom/language-switch.js?v=3"></script>
+  <script type="text/javascript" src="custom/language-switch.js?v=4"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0GGX5B16RV" type="text/javascript"></script>
   <script type="text/javascript" src="custom/ga.js"></script>
-  <script type="text/javascript" src="custom/partners.js?v=3"></script>
-  <script type="text/javascript" src="custom/count-down-en.js?v=3"></script>
-  <script type="text/javascript" src="custom/url-query-parser.js?v=3"></script>
+  <script type="text/javascript" src="custom/partners.js?v=4"></script>
+  <script type="text/javascript" src="custom/count-down.js?v=4"></script>
+  <script type="text/javascript" src="custom/url-query-parser.js?v=4"></script>
 </body>
 </html>

@@ -36,8 +36,53 @@ const list = [{
 }, {
   englishName: 'ONTO Wallet',
   chineseName: 'ONTO Wallet',
-  logo: 'wallet-test.png',
+  logo: 'wallet-onto.png',
   website: 'https://www.onto.app?utm_source=da.systems'
+}, {
+  englishName: 'ShowMe',
+  chineseName: 'ShowMe',
+  logo: 'partners-showme.png',
+  website: 'https://showme.fan?utm_source=da.systems'
+}, {
+  englishName: 'WePiggy',
+  chineseName: 'WePiggy',
+  logo: 'partners-wepiggy.png',
+  website: 'https://wepiggy.com?utm_source=da.systems'
+}, {
+  englishName: 'Coinhub',
+  chineseName: 'Coinhub',
+  logo: 'partners-coinhub.png',
+  website: 'https://www.coinhub.org?utm_source=da.systems'
+}, {
+  englishName: 'NFTSCAN',
+  chineseName: 'NFTSCAN',
+  logo: 'partners-nftscan.png',
+  website: 'https://nftscan.com?utm_source=da.systems'
+}, {
+  englishName: 'NFTGO',
+  chineseName: 'NFTGO',
+  logo: 'partners-nftgo.png',
+  website: 'https://nftgo.io?utm_source=da.systems'
+}, {
+  englishName: 'DASLA',
+  chineseName: 'DASLA',
+  logo: 'partners-dasla.png',
+  website: 'https://das.la?utm_source=da.systems'
+}, {
+  englishName: 'MIBAO',
+  chineseName: 'MIBAO',
+  logo: 'partners-mibao.png',
+  website: 'https://mibao.net?utm_source=da.systems'
+}, {
+  englishName: 'Nervos',
+  chineseName: 'Nervos',
+  logo: 'partners-nervos.png',
+  website: 'https://www.nervos.org?utm_source=da.systems'
+}, {
+  englishName: 'ViaWallet',
+  chineseName: 'ViaWallet',
+  logo: 'partners-viawallet.png',
+  website: 'https://viawallet.com?utm_source=da.systems'
 }]
 
 list.forEach((item) => {
