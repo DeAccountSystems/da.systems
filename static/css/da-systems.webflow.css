@@ -246,7 +246,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  margin-top: 25vh;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -266,7 +266,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
   padding-top: 0px;
   padding-bottom: 0px;
   -webkit-box-align: center;
@@ -407,6 +406,13 @@
   box-shadow: none;
 }
 
+.feature {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .bold-text-5 {
   font-weight: 600;
 }
@@ -537,6 +543,13 @@
   padding-bottom: 100px;
 }
 
+.scenarios {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .scenarios-content-left {
   width: 414px;
 }
@@ -603,7 +616,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -696,7 +708,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 200px;
   padding-right: 70px;
   padding-left: 70px;
   -webkit-box-pack: center;
@@ -2094,8 +2105,7 @@
   }
 
   .landingpage {
-    height: auto;
-    padding-top: 152px;
+    margin-top: 130px;
     padding-bottom: 100px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -2114,6 +2124,8 @@
 
   .feature {
     overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -2151,6 +2163,8 @@
 
   .scenarios {
     overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 100px;
   }
 
@@ -2353,7 +2367,7 @@
   }
 
   .landingpage {
-    height: auto;
+    margin-top: 0px;
     padding-top: 100px;
     padding-right: 50px;
     padding-left: 50px;
@@ -2374,6 +2388,11 @@
 
   .paragraph-left {
     width: auto;
+  }
+
+  .feature {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .div-block-4 {
@@ -2600,9 +2619,7 @@
   }
 
   .landingpage {
-    padding-right: 20px;
-    padding-bottom: 60px;
-    padding-left: 20px;
+    padding: 80px 20px 60px;
   }
 
   .heading {
@@ -2634,6 +2651,8 @@
   }
 
   .feature {
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-top: 60px;
     padding-bottom: 60px;
   }
