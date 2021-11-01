@@ -99,11 +99,6 @@ const list = [{
   logo: 'partners-dfox.png',
   website: 'https://dfox.cc?utm_source=da.systems'
 }, {
-  englishName: 'Mynft',
-  chineseName: 'Mynft',
-  logo: 'partners-mynft.png',
-  website: 'https://mynft.io?utm_source=da.systems'
-}, {
   englishName: 'GoPocket',
   chineseName: 'GoPocket',
   logo: 'partners-gopocket.png',
