@@ -118,6 +118,11 @@ const list = [{
   chineseName: 'CyberPunk Lab',
   logo: 'partners-cyberpunk-lab.png',
   website: ''
+}, {
+  englishName: 'UniPass',
+  chineseName: 'UniPass',
+  logo: 'partners-unipass.png',
+  website: 'https://www.unipass.id?utm_source=da.systems'
 }]
 
 list.forEach((item) => {
