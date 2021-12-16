@@ -123,6 +123,11 @@ const list = [{
   chineseName: 'UniPass',
   logo: 'partners-unipass.png',
   website: 'https://www.unipass.id?utm_source=da.systems'
+}, {
+  englishName: 'The Blackcard Project',
+  chineseName: 'The Blackcard Project',
+  logo: 'partners-kollect.png',
+  website: 'https://kollect.me/TheBlackcardProject?utm_source=da.systems'
 }]
 
 list.forEach((item) => {
