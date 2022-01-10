@@ -104,11 +104,6 @@ const list = [{
   logo: 'partners-gopocket.png',
   website: 'https://gopocket.finance?utm_source=da.systems'
 }, {
-  englishName: 'AToken',
-  chineseName: 'AToken',
-  logo: 'partners-atoken.png',
-  website: 'https://www.atoken.com?utm_source=da.systems'
-}, {
   englishName: 'Yin',
   chineseName: 'Yin',
   logo: 'partners-yin.png',
