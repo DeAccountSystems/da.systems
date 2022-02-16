@@ -123,6 +123,11 @@ const list = [{
   chineseName: 'The Blackcard Project',
   logo: 'partners-kollect.png',
   website: 'https://kollect.me/TheBlackcardProject?utm_source=da.systems'
+}, {
+  englishName: 'About3.me',
+  chineseName: 'About3.me',
+  logo: 'partners-about3.png',
+  website: 'https://about3.me?utm_source=da.systems'
 }]
 
 list.forEach((item) => {
